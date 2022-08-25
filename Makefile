@@ -11,6 +11,9 @@ export BLOG_GEN_VERSION
 decrypt_env:
 	ENV_PASSWORD=$${ENV_PASSWORD} ./blog-gen/scripts/decrypt_env.sh
 
+encrypt_env:
+	ENV_PASSWORD=$${ENV_PASSWORD} ./blog-gen/scripts/encrypt_env.sh
+
 fetch_blog_gen:
 	test -d ./blog-gen || \
 		git clone -b "v$${BLOG_GEN_VERSION}" https://github.com/carlosonunez/https-hugo-bloggen ./blog-gen
