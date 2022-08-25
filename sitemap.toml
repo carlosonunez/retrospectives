@@ -1,0 +1,11 @@
+[[ menu.main ]]
+  identifier = "retros"
+  name = "Retros"
+  url = "/retros"
+  weight = -10
+
+[[ menu.main ]]
+  identifier = "gh"
+  name = "GitHub"
+  url = "https://github.com/{{ .Env.GITHUB_HANDLE }}"
+  weight = -5
