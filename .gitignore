@@ -22,7 +22,6 @@ backend.tfvars
 site/*
 themes/*
 config.toml
-content/*
 layouts/*
 static/*
 blog-gen/
