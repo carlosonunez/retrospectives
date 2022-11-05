@@ -25,3 +25,4 @@ config.toml
 layouts/*
 static/*
 blog-gen/
+tags
