@@ -26,3 +26,5 @@ layouts/*
 static/*
 blog-gen/
 tags
+cscope.*
+cscope.*
